@@ -1,0 +1,46 @@
+{
+  "name": "commitlint-cli",
+  "version": "1.0.0",
+  "description": "代码提交检查规范",
+  "main": "index.js",
+  "bin": {
+    "init-commitlint": "./bin/init.js"
+  },
+  "scripts": {
+    "log": "conventional-changelog --config ./lib/log -i CHANGELOG.md -s -r 0",
+    "commit": "npm run log && git add . && git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ht1131589588/commitlint-cli.git"
+  },
+  "author": "luoxue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ht1131589588/commitlint-cli/issues"
+  },
+  "homepage": "https://github.com/ht1131589588/commitlint-cli#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "commitizen": "^4.2.1",
+    "commitlint": "^9.1.2",
+    "compare-func": "^2.0.0",
+    "conventional-changelog-cli": "^2.1.0",
+    "git-cz": "^4.7.1",
+    "husky": "^4.2.5",
+    "longest": "^2.0.1",
+    "q": "^1.5.1",
+    "right-pad": "^1.0.1",
+    "word-wrap": "^1.2.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "lib/cz"
+    }
+  }
+}
