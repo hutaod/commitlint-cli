@@ -32,10 +32,10 @@ commit规范和相关配置可以去另外一篇文章看一下: [commit规范�
 npm i commitlint-cli -D
 ```
 
-执行`npx commitlint-cli`
+执行`npx init-commitlint`
 
 ```bash
-npx commitlint-cli
+npx init-commitlint
 ```
 
 会自动在 package.json 中添加相关配置和命令
