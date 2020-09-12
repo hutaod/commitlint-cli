@@ -1,6 +1,6 @@
 {
   "name": "commitlint-cli",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "代码提交检查规范",
   "main": "index.js",
   "bin": {
