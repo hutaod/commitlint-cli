@@ -133,8 +133,6 @@ function main(argv) {
     return args
   }
 
-  console.log("测试")
-  
   while (argv.length) {
     // 获取合法命令，直到所有命令行参数都解析完毕或者程序退出
     const [key] = getArg()
