@@ -136,7 +136,7 @@ function main(argv) {
   
   while (argv.length) {
     // 获取合法命令，直到所有命令行参数都解析完毕或者程序退出
-    const [key, val] = getArg()
+    const [key] = getArg()
     switch (key) {
       // 打印版本号
       case '-v':
