@@ -1,4 +1,4 @@
-# commitlint-cli
+# commitlint-cli &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ht1131589588/commitlint-cli/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/commitlint-cli.svg?style=flat)](https://www.npmjs.com/package/commitlint-cli) 
 
 ## 前言
 
